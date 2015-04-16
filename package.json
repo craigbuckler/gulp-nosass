@@ -1,27 +1,35 @@
 {
-  "name": "gulp-nosass",
-  "version": "1.0.0",
-  "description": "Gulp build process using PostCSS plugins to emulate Sass",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "gulp"
-  ],
-  "author": "Craig Buckler",
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer-core": "^5.1.8",
-    "csswring": "^3.0.3",
-    "del": "^1.1.1",
-    "gulp": "^3.8.11",
-    "gulp-load-plugins": "^0.9.0",
-    "gulp-postcss": "^4.0.3",
-    "gulp-rename": "^1.2.0",
-    "postcss-import": "^5.1.0",
-    "postcss-mixins": "^0.1.1",
-    "postcss-nested": "^0.2.2",
-    "postcss-simple-vars": "^0.2.4"
-  }
+	"name": "gulp-nosass",
+	"version": "1.0.0",
+	"description": "Gulp build process using PostCSS plugins to emulate Sass",
+	"main": "index.js",
+	"homepage": "https://github.com/craigbuckler/gulp-nosass.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/craigbuckler/gulp-nosass.git"
+	},
+	"bugs": {
+		"url": "https://github.com/craigbuckler/gulp-nosass/issues"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"gulp", "postcss"
+	],
+	"author": "Craig Buckler",
+	"license": "MIT",
+	"devDependencies": {
+		"autoprefixer-core": "^5.1.8",
+		"csswring": "^3.0.3",
+		"del": "^1.1.1",
+		"gulp": "^3.8.11",
+		"gulp-load-plugins": "^0.9.0",
+		"gulp-postcss": "^4.0.3",
+		"gulp-rename": "^1.2.0",
+		"postcss-import": "^5.1.0",
+		"postcss-mixins": "^0.1.1",
+		"postcss-nested": "^0.2.2",
+		"postcss-simple-vars": "^0.2.4"
+	}
 }
