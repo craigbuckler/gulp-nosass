@@ -1,0 +1,14 @@
+/* Sass mixins */
+@define-mixin reset {
+  padding: 0;
+  margin: 0;
+}
+
+@define-mixin reset-list {
+  list-style-type: none;
+  @include reset;
+}
+
+@define-mixin drop-shadow $size $color {
+  text-shadow: $size $size $size $color, $size (-$size) $size $color, (-$size) $size $size $color, (-$size) (-$size) $size $color;
+}
